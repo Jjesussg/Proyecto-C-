@@ -1,6 +1,8 @@
 */ Proyecto-C-
 Proyecto final de C++
+
 Autor: Jorge Jesús Santos García 
+
 Informe: Automatización del Sistema de Préstamos de una Biblioteca
 
 Descripción del Problema:
