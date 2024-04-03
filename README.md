@@ -14,36 +14,35 @@ Se implementará un programa en C++ que cumpla con los requisitos mencionados. S
 -----------------------------------------
 |              Biblioteca               |
 -----------------------------------------
-| - librosDisponibles: vector<Libro>   |
-| - librosPrestados: map<Libro, Usuario>|
+ - librosDisponibles: vector<Libro>   
+ - librosPrestados: map<Libro, Usuario>
 -----------------------------------------
-| + agregarLibro(libro: Libro)         |
-| + prestarLibro(libro: Libro, usuario: Usuario) |
-| + devolverLibro(libro: Libro)        |
-| + mostrarLibrosDisponibles()         |
-| + guardarDatos(archivo: string)      |
+ + agregarLibro(libro: Libro)         
+ + prestarLibro(libro: Libro, usuario: Usuario) 
+ + devolverLibro(libro: Libro)        
+ + mostrarLibrosDisponibles()         
+ + guardarDatos(archivo: string)      
 -----------------------------------------
 
 -----------------------------------------
 |                Libro                 |
 -----------------------------------------
-| - titulo: string                     |
-| - autor: string                      |
-| - materia: string                    |
+- titulo: string                     
+- autor: string                      
+- materia: string                    
 -----------------------------------------
-| + Libro(t: string, a: string, m: string) |
+ + Libro(t: string, a: string, m: string)
 -----------------------------------------
 
 -----------------------------------------
 |               Usuario                |
 -----------------------------------------
-| - nombre: string                     |
-| - identidad: string                  |
------------------------------------------
-| + Usuario(n: string, id: string)     |
+ - nombre: string                      - identidad: string                  |
+---------------------------------------|+ Usuario(n: string, id: string)     |
 -----------------------------------------
 
 Libro "1" -- "1..*" Biblioteca
+
 Usuario "1" -- "1..*" Biblioteca
 
 
