@@ -38,7 +38,7 @@ Se implementará un programa en C++ que cumpla con los requisitos mencionados. S
 |               Usuario                |
 -----------------------------------------
  - nombre: string                      - identidad: string                  |
----------------------------------------|+ Usuario(n: string, id: string)     |
+---------------------------------------+ Usuario(n: string, id: string)   
 -----------------------------------------
 
 Libro "1" -- "1..*" Biblioteca
